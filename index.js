@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
-    { message: "Enter First Number", type: "number", name: "firstNumber" },
-    { message: "Enter Second Number", type: "number", name: "secondNumber" },
+    { message: "Enter Your First Number", type: "number", name: "firstNumber" },
+    { message: "Enter Your Second Number", type: "number", name: "secondNumber" },
     {
         message: "Select one of the operator to perform action ",
         type: "list",
@@ -26,3 +26,4 @@ else if (answer.operator === "Multiplilcation") {
 else {
     console.log("Please select a valid operator");
 }
+console.log("Credit to: Ahmer Shaikh");
