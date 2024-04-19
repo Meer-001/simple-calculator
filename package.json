@@ -1,0 +1,20 @@
+{
+  "name": "meer001-simple-calculator1",
+  "version": "1.0.0",
+  "description": "\"A simple calculator using typescript, node.js and inquiror\"",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmer Shaikh",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19",
+    "meer001-simple-calculator1": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
